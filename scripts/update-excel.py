@@ -8,8 +8,8 @@ ws = wb.active
 url = "https://jvision-self-care-platform.vercel.app"
 row_values = [
     None,
-    "自我照護體驗平台",
-    "Self-Care Booking / Client Experience",
+    "美業預約營運平台",
+    "Beauty Booking / Client Experience",
     "自助預約、智慧排班、客戶檔案、POS 結帳、會員方案、表單紀錄、訊息行銷與多店報表",
     url,
 ]

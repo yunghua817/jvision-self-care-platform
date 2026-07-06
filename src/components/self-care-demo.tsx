@@ -75,7 +75,7 @@ export function SelfCareDemo() {
         <div className="ops-card">
           <span>今日體驗營運</span>
           <strong>NT$ {kpis.revenue.toLocaleString("zh-TW")}</strong>
-          <div className="ops-status-list" aria-label="今日自我照護營運指標">
+          <div className="ops-status-list" aria-label="今日美業預約營運指標">
             <p><span>到店服務中</span><b>{kpis.checkedIn} 位</b></p>
             <p><span>未收尾款</span><b>NT$ {kpis.deposit.toLocaleString("zh-TW")}</b></p>
             <p><span>回訪訊息</span><b>{kpis.messages} 則</b></p>

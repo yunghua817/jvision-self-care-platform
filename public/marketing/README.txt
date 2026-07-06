@@ -1,4 +1,4 @@
-Jvision 自我照護體驗平台素材
+Jvision 美業預約營運平台素材
 
 Demo URL: https://jvision-self-care-platform.vercel.app
 

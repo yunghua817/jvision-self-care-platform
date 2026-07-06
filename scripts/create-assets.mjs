@@ -30,8 +30,8 @@ const posterSvg = `<?xml version="1.0" encoding="UTF-8"?>
 <rect width="1240" height="1754" fill="#F7F3EE"/>
 <rect x="70" y="70" width="1100" height="1614" rx="34" fill="#FFFFFF" stroke="#E7D8C9" stroke-width="2"/>
 <image href="${logoUrl}" x="108" y="112" width="214" height="60" preserveAspectRatio="xMinYMid meet"/>
-<text x="108" y="266" fill="#B45309" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="30" font-weight="700">Jvision Self-Care Experience Platform</text>
-<text x="108" y="356" fill="#1F2A37" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="68" font-weight="800">自我照護體驗平台 Demo</text>
+<text x="108" y="266" fill="#B45309" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="30" font-weight="700">Jvision Beauty Booking Operations Platform</text>
+<text x="108" y="356" fill="#1F2A37" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="68" font-weight="800">美業預約營運平台 Demo</text>
 <text x="108" y="442" fill="#1F2A37" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="50" font-weight="800">預約、排班、POS、會員與行銷一套完成</text>
 <text x="108" y="526" fill="#667085" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="30">整合自助預約、客戶檔案、表單紀錄、POS 結帳與多店報表。</text>
 <text x="108" y="574" fill="#667085" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="30">掃描 QR Code 可直接進入線上互動 Demo。</text>
@@ -55,7 +55,7 @@ const posterSvg = `<?xml version="1.0" encoding="UTF-8"?>
 <rect x="852" y="1238" width="280" height="280" rx="24" fill="#FFFFFF" stroke="#E7D8C9" stroke-width="2"/>
 <g transform="translate(867 1253)">${qrInner}</g>
 <rect x="108" y="1574" width="486" height="4" fill="#B45309"/>
-<text x="108" y="1632" fill="#667085" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="24">Jvision AI | 自我照護體驗平台互動展示</text>
+<text x="108" y="1632" fill="#667085" font-family="Arial, Microsoft JhengHei, sans-serif" font-size="24">Jvision AI | 美業預約營運平台互動展示</text>
 </svg>`;
 
 await writeFile(path.join(outDir, "jvision-self-care-platform-poster.svg"), posterSvg, "utf8");
@@ -79,7 +79,7 @@ function createPdf(fileName, render) {
 
 await createPdf("jvision-self-care-platform-poster.pdf", (doc) => {
   doc.image(logoBuffer, 48, 42, { width: 130 });
-  doc.font("bold").fontSize(29).fillColor("#1F2A37").text("Jvision 自我照護體驗平台 Demo", 48, 132);
+  doc.font("bold").fontSize(29).fillColor("#1F2A37").text("Jvision 美業預約營運平台 Demo", 48, 132);
   doc.font("bold").fontSize(20).text("預約、排班、POS、會員與行銷一套完成", 48, 174);
   doc.font("regular").fontSize(13).fillColor("#667085").text(
     "Jvision 協助沙龍、SPA、美療、醫美、按摩與指甲店整合自助預約、智慧排班、客戶檔案、POS 結帳、會員方案、訊息行銷與多店報表。",
@@ -100,9 +100,9 @@ await createPdf("jvision-self-care-platform-poster.pdf", (doc) => {
 
 await createPdf("jvision-self-care-platform-product-introduction.pdf", (doc) => {
   doc.image(logoBuffer, 48, 42, { width: 120 });
-  doc.font("bold").fontSize(24).fillColor("#1F2A37").text("Jvision 自我照護體驗平台產品介紹", 48, 120);
+  doc.font("bold").fontSize(24).fillColor("#1F2A37").text("Jvision 美業預約營運平台產品介紹", 48, 120);
   doc.font("regular").fontSize(12).fillColor("#667085").text(
-    "Jvision 自我照護體驗平台適合沙龍、SPA、美療、醫美、按摩、指甲店、理髮店與多據點品牌。系統將預約、排班、客戶檔案、表單、POS、會員、訊息與報表整合成一套門市營運工作流。",
+    "Jvision 美業預約營運平台適合沙龍、SPA、美療、醫美、按摩、指甲店、理髮店與多據點品牌。系統將預約、排班、客戶檔案、表單、POS、會員、訊息與報表整合成一套門市營運工作流。",
     48,
     168,
     { width: 500, lineGap: 7 },
@@ -127,7 +127,7 @@ await createPdf("jvision-self-care-platform-product-introduction.pdf", (doc) => 
 
 await writeFile(
   path.join(outDir, "README.txt"),
-  `Jvision 自我照護體驗平台素材\n\nDemo URL: ${demoUrl}\n\n檔案：\n- jvision-self-care-platform-poster.svg\n- jvision-self-care-platform-poster.png\n- jvision-self-care-platform-poster.pdf\n- jvision-self-care-platform-product-introduction.pdf\n`,
+  `Jvision 美業預約營運平台素材\n\nDemo URL: ${demoUrl}\n\n檔案：\n- jvision-self-care-platform-poster.svg\n- jvision-self-care-platform-poster.png\n- jvision-self-care-platform-poster.pdf\n- jvision-self-care-platform-product-introduction.pdf\n`,
   "utf8",
 );
 

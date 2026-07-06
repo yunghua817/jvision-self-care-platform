@@ -36,7 +36,7 @@ export default function Home() {
 
       <section className="hero dispatch-hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">Jvision Self-Care Experience Platform</p>
+          <p className="eyebrow">Jvision Beauty Booking Operations Platform</p>
           <h1>預約、排班、客戶檔案、POS、會員與行銷，一套照顧美業體驗。</h1>
           <p className="hero-text">
             Jvision 協助沙龍、SPA、美療、醫美、按摩與指甲店，把線上預約、智慧排班、客戶偏好、
@@ -132,7 +132,7 @@ export default function Home() {
 
       <footer>
         <img src="https://www.jvision-ai.com/public/logo.png" alt="Jvision logo" />
-        <p>Jvision 自我照護體驗平台 Demo，示範預約、排班、客戶檔案、POS、會員、訊息行銷與多店報表流程。</p>
+        <p>Jvision 美業預約營運平台 Demo，示範預約、排班、客戶檔案、POS、會員、訊息行銷與多店報表流程。</p>
       </footer>
     </main>
   );
