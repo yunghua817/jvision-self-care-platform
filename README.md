@@ -8,6 +8,10 @@
 - 線上海報：https://jvision-self-care-platform.vercel.app/marketing/jvision-self-care-platform-poster.png
 - 產品介紹 PDF：https://jvision-self-care-platform.vercel.app/marketing/jvision-self-care-platform-product-introduction.pdf
 
+## 專案海報
+
+[![Jvision 美業預約營運平台海報](docs/marketing/jvision-self-care-platform-poster.png)](docs/marketing/jvision-self-care-platform-poster.png)
+
 ## 功能
 
 - 自助預約與智慧排班
